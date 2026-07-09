@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="generateImage" type="xboolean" value="false"/>
+        <entry key="imageFormat" type="xstring" value="SVG"/>
+        <entry key="width" type="xint" value="800"/>
+        <entry key="height" type="xint" value="600"/>
+    </config>
+    <config key="view">
+        <entry key="targetColumnV3" type="xstring" value="target"/>
+        <entry key="positiveClassValue" type="xstring" value="1"/>
+        <config key="predictionColumnsV2">
+            <entry key="mode" type="xstring" value="MANUAL"/>
+            <config key="patternFilter">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="isCaseSensitive" type="xboolean" value="false"/>
+                <entry key="isInverted" type="xboolean" value="false"/>
+            </config>
+            <config key="manualFilter">
+                <config key="manuallySelected">
+                    <entry key="array-size" type="xint" value="1"/>
+                    <entry key="0" type="xstring" value="P (target=1)"/>
+                </config>
+                <config key="manuallyDeselected">
+                    <entry key="array-size" type="xint" value="37"/>
+                    <entry key="0" type="xstring" value="Water hardness IDX"/>
+                    <entry key="1" type="xstring" value="Online Consumption IYA"/>
+                    <entry key="2" type="xstring" value="Nr of Schools"/>
+                    <entry key="3" type="xstring" value="Nr of Hygienists"/>
+                    <entry key="4" type="xstring" value="Latitude"/>
+                    <entry key="5" type="xstring" value="Longitude"/>
+                    <entry key="6" type="xstring" value="Distance from a Dentist"/>
+                    <entry key="7" type="xstring" value="Total Population"/>
+                    <entry key="8" type="xstring" value="Male Population"/>
+                    <entry key="9" type="xstring" value="Female Population"/>
+                    <entry key="10" type="xstring" value="Celibe Population"/>
+                    <entry key="11" type="xstring" value="Married Population"/>
+                    <entry key="12" type="xstring" value="Divorced Population"/>
+                    <entry key="13" type="xstring" value="Population_age_&lt;5yo"/>
+                    <entry key="14" type="xstring" value="Population_age_5_9yo"/>
+                    <entry key="15" type="xstring" value="Population_age_10_14yo"/>
+                    <entry key="16" type="xstring" value="Population_age_15_19yo"/>
+                    <entry key="17" type="xstring" value="Population_age_20_24yo"/>
+                    <entry key="18" type="xstring" value="Population_age_25_29yo"/>
+                    <entry key="19" type="xstring" value="Population_age_30_34yo"/>
+                    <entry key="20" type="xstring" value="Population_age_35_39yo"/>
+                    <entry key="21" type="xstring" value="Population_age_40_44yo"/>
+                    <entry key="22" type="xstring" value="Population_age_45_49yo"/>
+                    <entry key="23" type="xstring" value="Population_age_50_54yo"/>
+                    <entry key="24" type="xstring" value="Population_age_55_59yo"/>
+                    <entry key="25" type="xstring" value="Population_age_60_64yo"/>
+                    <entry key="26" type="xstring" value="Population_age_65_69yo"/>
+                    <entry key="27" type="xstring" value="Population_age_70_74yo"/>
+                    <entry key="28" type="xstring" value="Population_age_&gt;74yo"/>
+                    <entry key="29" type="xstring" value="Graduated population"/>
+                    <entry key="30" type="xstring" value="Unoccupied population"/>
+                    <entry key="31" type="xstring" value="Total Students"/>
+                    <entry key="32" type="xstring" value="Total Households"/>
+                    <entry key="33" type="xstring" value="Households avg components"/>
+                    <entry key="34" type="xstring" value="Avg Income per Household"/>
+                    <entry key="35" type="xstring" value="P (target=0)"/>
+                    <entry key="36" type="xstring" value="Prediction (target) (Confidence)"/>
+                </config>
+                <entry key="includeUnknownColumns" type="xboolean" value="false"/>
+            </config>
+            <config key="typeFilter">
+                <config key="selectedTypes">
+                    <entry key="array-size" type="xint" value="0"/>
+                </config>
+            </config>
+        </config>
+        <entry key="maxPoints" type="xint" value="2500"/>
+        <entry key="title" type="xstring" value="ROC Curve"/>
+        <entry key="xAxisLabel" type="xstring" value="False positive rate (1 - specificity)"/>
+        <entry key="yAxisLabel" type="xstring" value="True positive rate (sensitivity)"/>
+        <entry key="lineSize" type="xint" value="2"/>
+        <entry key="legendPosition" type="xstring" value="INSIDE_PLOT"/>
+        <entry key="allowImageDownload" type="xboolean" value="true"/>
+        <entry key="enableAnimation" type="xboolean" value="true"/>
+        <entry key="enableDataZoom" type="xboolean" value="true"/>
+        <entry key="showTooltip" type="xboolean" value="true"/>
+    </config>
+    <config key="view_variables"/>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.views.node.roccurve.ROCCurveNodeFactory"/>
+    <entry key="node-name" type="xstring" value="ROC Curve"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Views"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base.views"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.5.1.v202507241234"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Views"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.views.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.5.1.v202507241234"/>
+    <config key="factory_settings"/>
+    <config key="node_creation_config">
+        <config key="Input Table"/>
+        <config key="Output Image"/>
+    </config>
+    <entry key="name" type="xstring" value="ROC Curve"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports"/>
+    <config key="internalObjects">
+        <entry key="location" type="xstring" value="internalTables"/>
+        <config key="content">
+            <config key="object_0">
+                <entry key="index" type="xint" value="0"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_0"/>
+            </config>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="48c86c68-17a6-42e6-8991-cb537c579636"/>
+    </config>
+</config>
