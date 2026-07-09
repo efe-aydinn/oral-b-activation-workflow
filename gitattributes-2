@@ -1,0 +1,5 @@
+*.xml linguist-language=XML
+*.knime linguist-language=XML
+*.meta linguist-language=XML
+*.zip linguist-vendored=true
+*.gz linguist-vendored=true
